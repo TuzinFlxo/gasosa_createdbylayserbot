@@ -5,9 +5,7 @@ export default styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    //paddingTop: Constants.statusBarHeight,
     backgroundColor: '#ecf0f1',
-    //padding: 8,
   },
   content: {
     padding: 8,
@@ -17,7 +15,6 @@ export default styles = StyleSheet.create({
     fontSize: 30,
     textAlign: 'center',
     color: '#2A2B2A',
-    fontFamily: 'Titulo'
   },
   viewInput: {
     borderWidth: 1,
@@ -26,7 +23,8 @@ export default styles = StyleSheet.create({
     backgroundColor: 'white',
     alignItems: 'center',
     paddingHorizontal: 10,
-    fontFamily: 'Normal'
+    width: '80%',
+    alignSelf: 'center',
   },
   botaobaixo:{
     borderWidth: 1,
@@ -36,7 +34,8 @@ export default styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 10,
     marginBottom: 10,
-    fontFamily: 'Normal'
+    width: '80%',
+    alignSelf: 'center',
   },
 
   input: {
@@ -47,13 +46,10 @@ export default styles = StyleSheet.create({
     justifyContent: 'center',
     textAlign: 'center',
     flex: 1,
-    fontFamily: 'Normal'
-    //borderWidth: 1,
+    width: '80%',
+    alignSelf: 'center',
   },
-  image: {
-    flex: 1,
-    justifyContent: 'center',
-  },
+
   botaocalcular: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -62,45 +58,49 @@ export default styles = StyleSheet.create({
     paddingHorizontal: 32,
     borderRadius: 4,
     elevation: 3,
-    backgroundColor: '#D4B483',
+    backgroundColor: '#000',
     marginTop: 10,
     height: 60,
+    width: '80%',
+    alignSelf: 'center',
   },
   textoBotao: {
-    color: '#7A6448',
+    color: '#fff',
     textAlign: 'center',
-    fontFamily: 'Titulo'
   },
   botaoResultado: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     paddingVertical: 12,
     paddingHorizontal: 32,
-    borderRadius: 4,
+    borderRadius: 8,
     elevation: 3,
-    backgroundColor: '#D4B483',
+    backgroundColor: '#000',
     marginTop: 10,
     height: 60,
+    width: '80%',
+    alignSelf: 'center',
   },
 
   botao: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    //paddingBottom: 30,
-    //paddingVertical: 12,
-    //paddingHorizontal: 32,
     borderRadius: 20,
     elevation: 3,
-    backgroundColor: '#D4B483',
+    backgroundColor: '#000',
     marginLeft: '30%',
     marginTop: 35,
     height: 60,
     width: 150,
+    width: '80%',
+    alignSelf: 'center',
   },
 
   picker:{
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    width: '80%',
+    alignSelf: 'center',
   }
 });

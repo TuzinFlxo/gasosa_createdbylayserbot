@@ -53,7 +53,7 @@ export default function App() {
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
         <View style={styles.content}>
-          <Text style={styles.title}>Abasteça seu carro</Text>
+          <Text style={styles.title}>Calcule o preço da gasolina</Text>
            <Picker
             selectedValue={combustivelEscolhido}
             onValueChange={(itemValue) => setCombustivelEscolhido(itemValue)}
@@ -88,7 +88,7 @@ export default function App() {
           </View>
 
           <View style={styles.botaoResultado}>
-            <Text style={styles.textoBotao}>Total a pagar:</Text>
+            <Text style={styles.textoBotao}>Total a pagar: </Text>
             {resultado && <Text style={styles.textoBotao}>{totalPagar}</Text>}
           </View>
         </View>
