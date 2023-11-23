@@ -23,7 +23,7 @@ export default styles = StyleSheet.create({
     backgroundColor: 'white',
     alignItems: 'center',
     paddingHorizontal: 10,
-    width: '80%',
+    width: '60%',
     alignSelf: 'center',
   },
   botaobaixo:{
@@ -34,7 +34,7 @@ export default styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 10,
     marginBottom: 10,
-    width: '80%',
+    width: '60%',
     alignSelf: 'center',
   },
 
@@ -46,7 +46,7 @@ export default styles = StyleSheet.create({
     justifyContent: 'center',
     textAlign: 'center',
     flex: 1,
-    width: '80%',
+    width: '60%',
     alignSelf: 'center',
   },
 
@@ -61,7 +61,7 @@ export default styles = StyleSheet.create({
     backgroundColor: '#000',
     marginTop: 10,
     height: 60,
-    width: '80%',
+    width: '60%',
     alignSelf: 'center',
   },
   textoBotao: {
@@ -79,7 +79,7 @@ export default styles = StyleSheet.create({
     backgroundColor: '#000',
     marginTop: 10,
     height: 60,
-    width: '80%',
+    width: '60%',
     alignSelf: 'center',
   },
 
@@ -94,13 +94,13 @@ export default styles = StyleSheet.create({
     marginTop: 35,
     height: 60,
     width: 150,
-    width: '80%',
+    width: '60%',
     alignSelf: 'center',
   },
 
   picker:{
     backgroundColor: '#fff',
-    width: '80%',
+    width: '60%',
     alignSelf: 'center',
   }
 });
