@@ -5,7 +5,7 @@ export default styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#9079DA',
   },
   content: {
     padding: 8,
@@ -14,7 +14,7 @@ export default styles = StyleSheet.create({
     margin: 24,
     fontSize: 30,
     textAlign: 'center',
-    color: '#2A2B2A',
+    color: '#ffff',
   },
   viewInput: {
     borderWidth: 1,
@@ -39,7 +39,7 @@ export default styles = StyleSheet.create({
   },
 
   input: {
-    color: '#949494',
+    color: '#000000',
     fontSize: 18,
     height: 60,
     padding: 10,
@@ -58,7 +58,7 @@ export default styles = StyleSheet.create({
     paddingHorizontal: 32,
     borderRadius: 4,
     elevation: 3,
-    backgroundColor: '#000',
+    backgroundColor: '#00097A',
     marginTop: 10,
     height: 60,
     width: '60%',
@@ -76,7 +76,7 @@ export default styles = StyleSheet.create({
     paddingHorizontal: 32,
     borderRadius: 8,
     elevation: 3,
-    backgroundColor: '#000',
+    backgroundColor: '#00097A',
     marginTop: 10,
     height: 60,
     width: '60%',
